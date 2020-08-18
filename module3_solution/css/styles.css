@@ -1,0 +1,102 @@
+body {
+	color: black;
+}
+p {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#our-menu-title {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+#collapsable-nav {
+	padding: 0px;
+}
+#header-nav {
+	background-color: #999999;
+	
+}	
+.collapse li {
+	width: 100%;
+}
+.navbar-brand {
+	padding-top: 1px;
+}
+.navbar-brand h1 {
+	color: #000000;
+	font-weight: bold;
+	margin-top: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#nav-list a {
+	background-color: #e3e3e3;
+	width: 100%;
+	border: 2px black;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+	background-color: #999999;
+} 
+#back-to-top {
+  color: #2670F1;
+  margin-left: 5px;
+}
+#chicken-button:hover {
+	background: #6e6e6e;
+}
+#beef-button:hover {
+	background: #6e6e6e;
+}
+#sushi-button:hover {
+	background: #6e6e6e;
+}
+#chicken, #beef, #sushi {
+	padding: 5px;
+}
+
+
+/********** Small devices and medium devices **********/
+@media (min-width: 768px) {
+  .navbar-brand h1 { /* Food, LLC */
+    padding-top: 10px;
+  }
+
+  /* Home Page */
+  .container {
+    width: 100%;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand h1 { /* FOOD, LLC */
+    padding-top: 10px;
+  }
+  #collapsable-nav {
+  	padding: 0 15px;
+  }
+  .icon-bar {
+  	
+  	border: 2px #000000;
+
+
+
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    color: #000000;
+    
+  }
+  
+
+  
+}
+	
